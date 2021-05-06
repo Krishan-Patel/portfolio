@@ -1,0 +1,4 @@
+.Mainpage{ 
+    display: flex;
+    flex-direction: column;
+}

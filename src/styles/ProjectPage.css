@@ -1,0 +1,100 @@
+.Project-body { 
+    display: flex;
+    flex-direction: column;
+    margin: 2% 3% 2% 3%;
+    background-color: white;
+}
+
+.Page-wrapper { 
+    background-color: rgb(241, 241, 241);
+}
+
+.header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+}
+
+.icon-container{
+    height: 90%;
+}
+
+.icon { 
+    height: 100%;
+    width: auto;
+}
+
+hr {
+    background-color: rgb(0, 0, 0);
+    border: 0 none;
+    color: rgb(0, 0, 0);
+    height: 10px;
+    margin: 0; 
+}
+
+.main-features { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-features p { 
+    text-align: center;
+}
+
+.Info-card { 
+    height: 35vh;
+    border: 1px solid black; 
+    margin-top: 5vh;
+    background-color:rgba(245, 242, 208, 1)
+}
+
+.Info-card p { 
+    text-align: center;
+}
+/*
+.Feature-text { 
+    text-align: center;
+    width: 50%;
+
+}
+*/
+.Info-card:last-child { 
+    margin-bottom: 5vh;
+}
+
+.carousel-root { 
+    width: 50%;
+    padding: 2% 0 0 0;
+}
+
+.container { 
+    /*background-color: #7fd6ff; */
+    padding: 40px;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 900px ) { 
+    .main-features { 
+        height: fit-content;
+    }
+
+    .main-features ul { 
+        padding-inline-start: 0;
+    }
+
+    .icon{ 
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    h1 , h3{ 
+        text-align: center;
+        font-size: 95%;
+    }
+    .carousel-root { 
+        width: 100%;
+    }
+}
