@@ -15,7 +15,7 @@ export default function App() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Body} />
+          <Route path="/portfolio/" exact component={Body} />
           <Route path="/New-Tab/" component={NewTab} />
           <Route path="/Todo-list/" component={ToDo} />
           <Route path="/StockNow/" component={StockNow} />

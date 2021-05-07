@@ -39,6 +39,6 @@ export default function ToDo() {
     </p>
     </div>
     return (
-        <ProjectPage Title = 'Task Manager' images = {images} description = "Task Manager Chrome Extension" about = {about} color="#ff7f7f"></ProjectPage>
+        <ProjectPage Title = 'Task Manager' images = {images} description = "Task Manager Chrome Extension" about = {about} color="#ff7f7f" link = "https://github.com/Krishan-Patel/TaskManager-Browser-Extension"></ProjectPage>
     )
 }

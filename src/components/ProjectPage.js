@@ -51,7 +51,7 @@ export default function ProjectPage(props) {
           <div className="header" >
             <h1>{props.Title}</h1>
             <div className="icon-container">
-              <img src={github_logo} className="icon" alt=""></img>
+             <a href={props.link}><img src={github_logo} className="icon" alt=""></img></a> 
             </div>
           </div>
           <div>

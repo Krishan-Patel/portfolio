@@ -61,6 +61,7 @@ export default function NewTab() {
   images = {images} 
   description = "Fullstack Website that provides real-time statistics for 500+ stocks from the NYSE"
   about = {about} 
-  color = "#7fffa6">
+  color = "#7fffa6"
+  link = "https://github.com/Krishan-Patel/StockNow">
   </ProjectPage>;
 } 

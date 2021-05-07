@@ -55,6 +55,7 @@ export default function NewTab() {
   images = {images} 
   description = "Custom New Tab Override Page That Displays Live Scores, Odds And Statistics From Various Sports Leagues"
   about = {about} 
-  color = "#7fd6ff">
+  color = "#7fd6ff"
+  link = "https://github.com/Krishan-Patel/GameCenter-ChromeExtension">
   </ProjectPage>;
 }

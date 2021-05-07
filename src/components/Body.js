@@ -37,7 +37,7 @@ export default function Body() {
                 thumbnail = {facethumb}
                 title = 'Facial Recognition App'
                 description = 'Comming Soon...'
-                link = '/'/>
+                link = '/portfolio/'/>
             </div>
         </div>
     )

@@ -40,7 +40,7 @@ export default function Navbar() {
   let DesktopMenu = (
     <div className="Navbar">
       <div className="Btn_Container">
-        <MenuBtn text="Home" styles="Desktop" path="/" />
+        <MenuBtn text="Home" styles="Desktop" path="/portfolio/" />
         <MenuBtn text="GameCenter" styles="Desktop" path="/New-Tab" />
         <MenuBtn text="StockNow " styles="Desktop" path="/StockNow" />
         <MenuBtn text="Task Manager" styles="Desktop" path="/Todo-list" />
@@ -52,7 +52,7 @@ export default function Navbar() {
     <div className="NavbarMobile">
       {Mobile}
       <div className="Btn_ContainerMobile">
-        <MenuBtn text="Home" styles="Mobile" path="/" Toggle={ToggleActive} />
+        <MenuBtn text="Home" styles="Mobile" path="/portfolio/" Toggle={ToggleActive} />
         <MenuBtn
           text="GameCenter"
           styles="Mobile"
