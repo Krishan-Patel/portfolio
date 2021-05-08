@@ -1,48 +1,48 @@
 import React from "react";
 import ProjectPage from "./ProjectPage";
-import img1 from "../images/StockNow/Thumbnail.png"
-import img2 from "../images/StockNow/Login.png"
-import img3 from "../images/StockNow/Registration.png"
-import vid1 from "../images/StockNow/main.mov"
-import vid2 from "../images/StockNow/login.mov"
-import vid3 from "../images/StockNow/list.mov"
-import vid4 from "../images/StockNow/add.mov"
-import vid5 from "../images/StockNow/register.mov"
+import Thumbnail from "../images/StockNow/Thumbnail.png"
+import login from "../images/StockNow/Login.png"
+import registration from "../images/StockNow/Registration.png"
+import main from "../images/StockNow/main.mov"
+import login_video from "../images/StockNow/login.mov"
+import list from "../images/StockNow/list.mov"
+import add from "../images/StockNow/add.mov"
+import register from "../images/StockNow/register.mov"
 
 
 export default function NewTab() {
 
   const images = [
     {
-      src: img1,
+      src: Thumbnail,
       type: 'img'
     },
     {
-      src: img2,
+      src: login,
       type: 'img'
     },
     {
-      src: img3,
+      src: registration,
       type: 'img'
     },
     {
-      src: vid1,
+      src: main,
       type: 'video'
     },
     {
-      src: vid2,
+      src: login_video,
       type: 'video'
     },
     {
-      src: vid3,
+      src: list,
       type: 'video'
     },
     {
-      src: vid4,
+      src: add,
       type: 'video'
     },
     {
-      src: vid5,
+      src: register,
       type: 'video'
     },
   ]; 

@@ -41,9 +41,9 @@ export default function Navbar() {
     <div className="Navbar">
       <div className="Btn_Container">
         <MenuBtn text="Home" styles="Desktop" path="/portfolio/" />
-        <MenuBtn text="GameCenter" styles="Desktop" path="/New-Tab" />
+        <MenuBtn text="GameCenter" styles="Desktop" path="/GameCenter" />
         <MenuBtn text="StockNow " styles="Desktop" path="/StockNow" />
-        <MenuBtn text="Task Manager" styles="Desktop" path="/Todo-list" />
+        <MenuBtn text="Task Manager" styles="Desktop" path="/Task-Manager" />
       </div>
     </div>
   );
@@ -56,7 +56,7 @@ export default function Navbar() {
         <MenuBtn
           text="GameCenter"
           styles="Mobile"
-          path="/New-Tab"
+          path="/GameCenter"
           Toggle={ToggleActive}
         />
          <MenuBtn
@@ -68,7 +68,7 @@ export default function Navbar() {
         <MenuBtn
           text="Task Manager"
           styles="Mobile"
-          path="/Todo-list"
+          path="/Task-Manager"
           Toggle={ToggleActive}
         />
       </div>

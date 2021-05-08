@@ -1,30 +1,31 @@
 import React from 'react'
 import ProjectPage from './ProjectPage'
-import img1 from "../images/TaskManager/Main.png"
-import vid1 from "../images/TaskManager/Complete.mov"
-import vid2 from "../images/TaskManager/Delete.mov"
-import vid3 from "../images/TaskManager/Edit.mov"
-import vid4 from "../images/TaskManager/Create.mov"
-export default function ToDo() {
+import main from "../images/TaskManager/Main.png"
+import complete from "../images/TaskManager/Complete.mov"
+import delete_video from "../images/TaskManager/Delete.mov"
+import edit from "../images/TaskManager/Edit.mov"
+import create from "../images/TaskManager/Create.mov"
+
+export default function TaskManager() {
     const images = [ 
         {
-            src: img1, 
+            src: main, 
             type: 'img'
         },
         {
-            src: vid4, 
+            src: create, 
             type: 'video'
         },
         {
-            src: vid1, 
+            src: complete, 
             type: 'video'
         },
         {
-            src: vid3, 
+            src: edit, 
             type: 'video'
         }, 
         {
-            src: vid2, 
+            src: delete_video, 
             type: 'video'
         }
     ]

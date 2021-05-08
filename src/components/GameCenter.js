@@ -1,41 +1,41 @@
 import React from "react";
 import ProjectPage from "./ProjectPage";
-import img1 from '../images/new_tab/Thumbnail_main.png';
-import vid1 from "../images/new_tab/vid1.mov"
-import vid2 from "../images/new_tab/vid2.mov"
-import img2 from "../images/new_tab/Thumbnail_small.png"
-import vid3 from "../images/new_tab/Custom Settings.mov"
-import vid4 from "../images/new_tab/ESPN GameCast.mov"
-import vid5 from "../images/new_tab/Resize.mov"
-export default function NewTab() {
+import thumbnail_main from '../images/new_tab/Thumbnail_main.png';
+import video1 from "../images/new_tab/vid1.mov"
+import video2 from "../images/new_tab/vid2.mov"
+import thumbnail_small from "../images/new_tab/Thumbnail_small.png"
+import custom_settings from "../images/new_tab/Custom Settings.mov"
+import gamecast from "../images/new_tab/ESPN GameCast.mov"
+import resize from "../images/new_tab/Resize.mov"
 
+export default function GameCenter() {
   const images = [
     {
-      src: img1,
+      src: thumbnail_main,
       type: 'img'
     },
     {
-      src: vid1,
+      src: video1,
       type: 'video'
     }, 
     {
-      src: vid2,
+      src: video2,
       type: 'video'
     },
     {
-      src: img2,
+      src: thumbnail_small,
       type: 'img'
     },
     {
-      src: vid3,
+      src: custom_settings,
       type: 'video'
     },
     {
-      src: vid4,
+      src: gamecast,
       type: 'video'
     },
     {
-      src: vid5,
+      src: resize,
       type: 'video'
     },
   ]; 

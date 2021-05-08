@@ -3,11 +3,12 @@ import "../styles/App.css";
 import Body from "./Body";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import ToDo from './ToDo'
+import TaskManager from './TaskManager'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NewTab from './NewTab'
+import GameCenter from './GameCenter'
 import ScrollToTop from "./ScrollToTop";
 import StockNow from "./StockNow"
+
 export default function App() {
   return (
     <div className="Mainpage">
@@ -16,8 +17,8 @@ export default function App() {
         <Navbar />
         <Switch>
           <Route path="/portfolio/" exact component={Body} />
-          <Route path="/New-Tab/" component={NewTab} />
-          <Route path="/Todo-list/" component={ToDo} />
+          <Route path="/GameCenter/" component={GameCenter} />
+          <Route path="/Task-Manager/" component={TaskManager} />
           <Route path="/StockNow/" component={StockNow} />
         </Switch>
         <Footer />
