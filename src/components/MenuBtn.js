@@ -6,7 +6,6 @@ export default function MenuBtn(props) {
   let text = props.text;
   let ToggleFunc = props.Toggle;
 
-  // props.mobile ? MobileMenuIcons : MenuIcon
   return (
     <Link
       to={props.path}
